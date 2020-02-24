@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<configuration name="my domoticz">
+	<mqtt_server host="127.0.0.1" port="1883" topic="domoticz/in" />
+	<entries>
+		<entry id="1" value="12321" name="Button1" >
+			<mqtt_msg>{"idx":58,"nvalue":1,"svalue":"1"}</mqtt_msg>
+		</entry>
+		<entry id="2" value="1236405532" name="PIR" >
+			<mqtt_msg>{"idx":57,"nvalue":1,"svalue":"1"}</mqtt_msg>
+		</entry>
+		<entry id="3" value="1230301" name="dzwi_lazienka" >
+			<mqtt_msg>{"idx":56,"nvalue":1,"svalue":"1"}</mqtt_msg>
+		</entry>
+	</entries>
+</configuration>
